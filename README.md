@@ -23,7 +23,7 @@
 
 ### Hi, I'm Vaibhav Tayade.
 
-**CS/engineering student building small, clean tools.** Into data structures, Python, assembly, AI/RAG and automation. My rule: *Simplicity / Readability / Performance / Maintainability / Testability / Reusability.*
+**CS/engineering student building AI System and AI tools.** Into data structures, Python, assembly, AI/RAG and automation. My rule: *Simplicity / Readability / Performance / Maintainability / Testability / Reusability.*
 
 [![followers](https://img.shields.io/github/followers/vaibhavtayade07?style=for-the-badge&logo=github&label=followers&color=00d4ff)](https://github.com/vaibhavtayade07?tab=followers)
 [![public repos](https://img.shields.io/github/repos/vaibhavtayade07?style=for-the-badge&logo=github&label=public%20repos&color=00d4ff)](https://github.com/vaibhavtayade07?tab=repositories)
