@@ -5,15 +5,10 @@
 
   PERSONALIZE THESE (search "TODO"):
   1. Social links (LinkedIn / X / email) — "Let's connect" section.
-  2. LeetCode username — "Coding stats" section.
-  3. Codeforces handle — "Coding stats" section.
-  4. WakaTime username + public toggles — "Coding stats" section.
-  5. Spotify uid — one-time OAuth at https://spotify-github-profile.kittinanx.com/api/login
-  6. dev.to username — "Writing" section.
+  2. dev.to username — "Writing" section.
 
-  ANIMATIONS need their first run before images appear:
-  - Snake: run the "generate animation" workflow once from the Actions tab.
-  - Koi:  run the "Koi" workflow once from the Actions tab.
+  Snake animation is generated nightly by .github/workflows/snake.yml
+  into the `output` branch.
   ============================================================
 -->
 
@@ -51,7 +46,7 @@
 <!-- Trophy card note: the old github-profile-trophy.vercel.app now returns 402
      (payment required), so it was replaced with the hacker card above. -->
 
-## Activity & little creatures
+## Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavtayade07&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ffffff&area_color=0d1117&hide_border=true&height=200&width=900" alt="Contribution activity graph for vaibhavtayade07" />
@@ -65,12 +60,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhavtayade07/vaibhavtayade07/output/github-contribution-grid-snake.svg" />
     <img alt="Contribution snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/vaibhavtayade07/vaibhavtayade07/output/github-contribution-grid-snake.svg" />
   </picture>
-</p>
-
-<!-- Koi: generated nightly by .github/workflows/koi.yml and committed to koi/koi.gif.
-     It will 404 until that workflow has run once. -->
-<p align="center">
-  <img src="koi/koi.gif" width="256" alt="A living pixel-art koi that grows with my contributions" />
 </p>
 
 ## Stack
@@ -88,34 +77,6 @@
   <img src="https://skillicons.dev/icons?i=git,github,linux,bash,docker,vscode,vim&theme=dark&perline=7" alt="Tools: Git, GitHub, Linux, Bash, Docker, VS Code, Vim" />
 </p>
 
-## Coding stats
-
-<!-- TODO: replace YOUR_LEETCODE_HANDLE with your LeetCode username.
-     Find it at leetcode.com -> your profile URL. Zero signup needed. -->
-<p align="center">
-  <a href="https://leetcode.com/YOUR_LEETCODE_HANDLE"><img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_HANDLE?theme=dark&ext=activity" alt="LeetCode stats" /></a>
-</p>
-
-<!-- TODO: replace YOUR_CF_HANDLE with your Codeforces handle (or delete this block). -->
-<p align="center">
-  <a href="https://codeforces.com/profile/YOUR_CF_HANDLE"><img src="https://cp-insights-three.vercel.app/api/profile?handle=YOUR_CF_HANDLE&theme=dark&heatmap=true&problemBarGraph=true" alt="Codeforces profile card" /></a>
-</p>
-
-<!-- TODO: replace YOUR_WAKATIME_USERNAME. Also at wakatime.com/settings/profile enable
-     BOTH "Display code time publicly" and "Display languages/editors/os publicly". -->
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&layout=compact&hide_border=true&bg_color=0d1117&title_color=00D4FF&text_color=c9d1d9" alt="WakaTime coding time" />
-</p>
-
-## 🎧 Now playing
-
-<!-- TODO (one-time setup): visit https://spotify-github-profile.kittinanx.com/api/login,
-     authorize with Spotify, copy the `uid` from the callback page, and paste it below.
-     Free Spotify accounts may only show recently played (Spotify API rules since Feb 2026). -->
-<p align="center">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&theme=default&mode=dark&background_color=121212&bar_color=00D4FF&border_radius=10&cover_image=true&show_offline=true" alt="Spotify now playing" />
-</p>
-
 ## Currently building
 
 - Tightening up the RAG knowledge assistant — better retrieval, fewer hallucinations.
@@ -130,42 +91,6 @@
 <!-- TODO: replace YOUR_DEVTO_USERNAME with your dev.to handle (needs >=1 published post). -->
 <p align="center">
   <a href="https://dev.to/YOUR_DEVTO_USERNAME"><img src="https://github-readme-social-article.vercel.app/devto/YOUR_DEVTO_USERNAME?top=3" alt="Latest articles" /></a>
-</p>
-
-## Just for fun
-
-<details>
-<summary>🎮 Platform-mimic cards (click to expand)</summary>
-
-<p align="center">
-  <a href="https://github.com/vaibhavtayade07"><img src="https://coolreadme.xyz/api/yc-card?company=Vaibhav%20Tayade&batch=W26&status=stealth&tagline=Building%20in%20public&sector=Developer%20Tools" alt="YC-style card" /></a>
-  <a href="https://news.ycombinator.com/"><img src="https://coolreadme.xyz/api/hackernews-card?kind=show&title=Shipped%20my%20GitHub%20README&url=github.com%2Fvaibhavtayade07&points=247&comments=89&rank=1&age=3%20hours%20ago&user=vaibhavtayade07" alt="HN-style card" /></a>
-  <a href="https://github.com/vaibhavtayade07"><img src="https://coolreadme.xyz/api/linear-card?id=FEAT-247&title=Ship%20README%20v2&status=in-progress&priority=high&project=Portfolio&labels=feature%2Capi&estimate=3%20days" alt="Linear-style card" /></a>
-</p>
-
-<p align="center">
-  <img src="https://coolreadme.xyz/api/duolingo-card?streak=0&language=Git&mood=angry" alt="Duolingo-style card" />
-  <img src="https://coolreadme.xyz/api/letterboxd-card?title=The%20Social%20Network&year=2010&director=David%20Fincher&rating=4.5&liked=true" alt="Letterboxd-style card" />
-  <img src="https://coolreadme.xyz/api/now-listening?song=Not%20Like%20Us&artist=Kendrick%20Lamar&style=spotify" alt="Now listening card" />
-</p>
-
-<p align="center">
-  <img src="https://coolreadme.xyz/api/netflix-card?title=Silicon%20Valley&season=1&episode=1&genre=Comedy&match=98&quality=HD&style=slim" alt="Netflix-style card" />
-  <img src="https://coolreadme.xyz/api/twitch-card?streamer=vaibhavtayade07&game=Coding&title=building%20in%20public&viewers=42&uptime=2:13&verified=true&style=stream" alt="Twitch-style card" />
-  <img src="https://coolreadme.xyz/api/steam-card?game=Factorio&genre=Automation&hours=1337&achievements=42&reviews=Very%20Positive" alt="Steam-style card" />
-  <img src="https://coolreadme.xyz/api/ai-card?tool=claude&role=builder&tagline=shipping%20with%20agents" alt="AI identity card" />
-</p>
-
-</details>
-
-<p align="center">
-  <img src="https://coolreadme.xyz/api/fox-card?user=vaibhavtayade07&accent=00D4FF&bg=0D1117" alt="Fox companion" />
-  <img src="https://coolreadme.xyz/api/penguin-card?user=vaibhavtayade07&accent=00D4FF&bg=0D1117" alt="Penguin companion" />
-  <img src="https://coolreadme.xyz/api/owl-card?user=vaibhavtayade07&accent=00D4FF&bg=0D1117" alt="Owl companion" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-quotes-bay.vercel.app/quote?theme=dark&layout=socrates&animation=grow_out_in&quoteCategory=programming" alt="Random programming quote" />
 </p>
 
 ## Selected work
