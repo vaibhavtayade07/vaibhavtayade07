@@ -12,7 +12,9 @@ on:
 permissions:
   contents: write
 
-concurrency: koi
+concurrency:
+  group: koi
+  cancel-in-progress: true
 
 jobs:
   koi:
